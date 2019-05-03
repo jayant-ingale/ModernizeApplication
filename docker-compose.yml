@@ -2,7 +2,7 @@ version: '3'
 
 services:
   modernizeapplication:
-    image: modernizeapplication
+    image: docker.io/demojayant/modernizeapplication
     build:
       context: .\ModernizeApplication
       dockerfile: Dockerfile
